@@ -140,7 +140,6 @@ def write_csv(wan_data, num):
         for i in range(num):
             w.writerow([i, wan_data[i][1]])
             # w.writerow([i, wan_data[i][1], wan_data[i][2], wan_data[i][3]])
-            # w.writerow([wan_data[6][0],wan_data[6][1],wan_data[6][2],wan_data[6][3]])
 
 #####JSON######
 def save_json(data,fname):
