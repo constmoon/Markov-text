@@ -12,7 +12,6 @@ def csv2txt(read_path, write_path):
 
 
 def main(read_path, write_path):
-    # generate text file for char-rnn language model
     csv2txt(read_path, write_path)
 
 
