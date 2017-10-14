@@ -148,7 +148,6 @@ def save_json(data,fname):
          json.dump(data, f)
 
 
-######################
 wan_data, num = fetch_feed()
 write_csv(wan_data, num)
 #save_json(wan_data,'facebook_my_feed.json')
