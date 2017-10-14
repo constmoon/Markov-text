@@ -68,7 +68,6 @@ def make_sentence(dic):
 
     # Spellchecker (KOREAN)
     data = urllib.request.urlopen("https://m.search.naver.com/p/csearch/dcontent/spellchecker.nhn?" + params)
-
     data = data.read().decode("utf-8")[1:-2]
     data = json.loads(data)
     data = data["message"]["result"]["html"]
